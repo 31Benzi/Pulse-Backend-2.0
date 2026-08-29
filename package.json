@@ -1,0 +1,30 @@
+{
+  "name": "exlo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "discord.js": "^14.25.1",
+    "drizzle-orm": "^0.31.0",
+    "hono": "^4.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "@types/node": "^20.14.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/uuid": "^9.0.8",
+    "drizzle-kit": "^0.22.0",
+    "typescript": "^5.4.0"
+  }
+}

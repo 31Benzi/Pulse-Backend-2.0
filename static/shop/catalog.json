@@ -1,0 +1,126 @@
+{
+  "refreshIntervalHrs": 24,
+  "dailyPurchaseHrs": 24,
+  "expiration": "9999-12-31T23:59:59.999Z",
+  "storefronts": [
+    {
+      "name": "BRSeason9",
+      "catalogEntries": [
+        {
+          "offerId": "73E6EE6F4526EF97450D1592C3DB0EF5",
+          "devName": "BR.Season9.BattlePass.01",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 950,
+              "finalPrice": 950,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 950
+            }
+          ],
+          "categories": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "refundable": false,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnFulfillment",
+              "requiredId": "73E6EE6F4526EF97450D1592C3DB0EF5",
+              "minQuantity": 1
+            }
+          ],
+          "metaInfo": [],
+          "catalogGroup": "",
+          "catalogGroupPriority": 0,
+          "sortPriority": 1,
+          "title": "Battle Pass",
+          "shortDescription": "Exlo: Season 9",
+          "description": "Season 9 Battle Pass",
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_BR_Season9_BattlePass.DA_BR_Season9_BattlePass",
+          "itemGrants": []
+        },
+        {
+          "offerId": "C7190ACA4E5E228A94CA3CB9C3FC7AE9",
+          "devName": "BR.Season9.BattleBundle.01",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 4700,
+              "finalPrice": 2800,
+              "saleType": "PercentOff",
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 2800
+            }
+          ],
+          "categories": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "refundable": false,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnFulfillment",
+              "requiredId": "C7190ACA4E5E228A94CA3CB9C3FC7AE9",
+              "minQuantity": 1
+            }
+          ],
+          "metaInfo": [],
+          "catalogGroup": "",
+          "catalogGroupPriority": 0,
+          "sortPriority": 0,
+          "title": "Battle Bundle",
+          "shortDescription": "Battle Pass + 25 tiers!",
+          "description": "Season 9 Battle Bundle",
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_BR_Season9_BattlePassWithLevels.DA_BR_Season9_BattlePassWithLevels",
+          "itemGrants": []
+        },
+        {
+          "offerId": "33E185A84ED7B64F2856E69AADFD092C",
+          "devName": "BR.Season9.SingleTier.01",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 150,
+              "finalPrice": 150,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 150
+            }
+          ],
+          "categories": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "refundable": false,
+          "appStoreId": [],
+          "requirements": [],
+          "metaInfo": [],
+          "catalogGroup": "",
+          "catalogGroupPriority": 0,
+          "sortPriority": 0,
+          "title": "Battle Pass Tier",
+          "shortDescription": "",
+          "description": "Get great rewards now!",
+          "displayAssetPath": "",
+          "itemGrants": []
+        }
+      ]
+    },
+    {
+      "name": "BRWeeklyStorefront",
+      "catalogEntries": []
+    },
+    {
+      "name": "BRDailyStorefront",
+      "catalogEntries": []
+    }
+  ]
+}
